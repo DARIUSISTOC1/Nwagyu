@@ -241,9 +241,78 @@ export default {
           ]
         },
         {
-          text: 'Documentation (anglais)',
-          link: '/reference/',
+          text: 'Documentation',
+          link: '/fr/reference/',
+          prefix: '/fr/reference/',
           children: [
+            {
+              text: 'Tutoriels',
+              link: '/fr/reference/tutorial/',
+              prefix: '/fr/reference/tutorial/',
+              collapsible: true,
+              children: [
+                "1-create",
+                "2-cleanup-template",
+                "3-moving-the-snake",
+                "4-snake-length",
+                "5-fruits",
+                "6-game-over",
+                "7-map-edge",
+                "8-frame-limiter",
+                "9-fruits-spawning",
+                "10-score",
+                "11-maps",
+                "12-icon",
+                "13-increasing-speed",
+                "14-conclusion",
+              ],
+            },
+            {
+              text: 'Applications externes',
+              link: '/fr/reference/apps/',
+              prefix: '/fr/reference/apps/',
+              children: [
+                "creating-application",
+                "storage",
+                "onoff-home",
+                "syscalls",
+              ],
+            },
+            {
+              text: "Firmware",
+              link: '/fr/reference/firmware/',
+              prefix: '/fr/reference/firmware/',
+              children: [
+                "boot-process",
+                "slots",
+                "bootloader",
+                "kernel",
+                "userland",
+                "addresses-structures",
+              ]
+            },
+            {
+              text: "Divers",
+              link: '/fr/reference/others/',
+              prefix: '/fr/reference/others/',
+              children: [
+                "dfu",
+                "downloading-epsilon"
+              ]
+            },
+            {
+              text: "Conseils pour développeurs",
+              link: '/fr/reference/tips/',
+              prefix: '/fr/reference/tips/',
+              children: [
+                "rust_heap",
+              ]
+            },
+            {
+              text: 'Documentation utilisateur',
+              link: '/fr/guide/',
+              children: [],
+            },
           ]
         },
       ],
